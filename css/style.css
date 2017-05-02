@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  color: #5c6d89;
+  font-family: Helvetica, sans-serif; }
+
+.grid {
+  border: 1px solid #fff; }
+  .grid .grid__row {
+    display: flex;
+    background: #5c6d89; }
+    .grid .grid__row .grid__item {
+      flex: 1;
+      padding: 12px;
+      border: 1px solid #fff; }
+
+/*# sourceMappingURL=style.css.map */

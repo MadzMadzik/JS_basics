@@ -1,0 +1,30 @@
+{
+  "name": "js_basics",
+  "version": "1.0.0",
+  "description": "JS exercices",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadzMadzik/JS_basics.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Magda Sobieszuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadzMadzik/JS_basics/issues"
+  },
+  "homepage": "https://github.com/MadzMadzik/JS_basics#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
