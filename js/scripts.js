@@ -1,18 +1,17 @@
-var a = 5,
-    h = 7;
+var a = prompt('podaj liczbę '),
+    b = prompt('podaj liczbę '),
+    value = (a * a) + (2 * a * b) - (b * b);
  
-function getTriangleArea(a, h) {
-                if (a <= 0 || h <= 0) {
-      console.log('Nieprawidłowe dane');
-    } else {
-      return a*h/2;
-    }
+console.log(value);
+ 
+if (value > 0) {
+	console.log('Wynik dodatni');
+} else {
+	console.log('Wynik ujemny');
 }
- 
-console.log(getTriangleArea(10,6));
- 
-var triangleArea1 = getTriangleArea(4, 3);
-var triangleArea2 = getTriangleArea(0, 3);
-var triangleArea3 = getTriangleArea(4, 9);
- 
-console.log(triangleArea1, triangleArea2, triangleArea3);
+
+if (value === 0) {
+	console.log('Równe 0');
+} else {
+	console.log(value);
+}
