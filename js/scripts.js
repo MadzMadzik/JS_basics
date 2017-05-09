@@ -1,18 +1,11 @@
-var a = 5,
-    h = 7;
- 
-function getTriangleArea(a, h) {
-                if (a <= 0 || h <= 0) {
-      console.log('Nieprawidłowe dane');
-    } else {
-      return a*h/2;
+function drawTree(x) {
+	for (i = 0; i < x; i++) {
+      var star = '';
+      for (j = 0; j <= i; j++){
+        star += '*';
+      }
+    console.log(star);
     }
 }
- 
-console.log(getTriangleArea(10,6));
- 
-var triangleArea1 = getTriangleArea(4, 3);
-var triangleArea2 = getTriangleArea(0, 3);
-var triangleArea3 = getTriangleArea(4, 9);
- 
-console.log(triangleArea1, triangleArea2, triangleArea3);
+
+drawTree(5);
